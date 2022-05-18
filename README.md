@@ -6,9 +6,15 @@
   参考#include <elf.h>，该头文件通常在/usr/include/elf.h
   
   
-  
-  
-  
+  ELF 中的内容按顺序应该是：
+
+    + ELF header
+
+    + 若干个 program header
+
+    + 程序各个段的实际数据
+
+    + 若干的 section header  
   
   - elf文件头
   
