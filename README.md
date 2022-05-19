@@ -30,7 +30,7 @@
     
     
 
-    + 若干的 section header  
+    ![](loc.png)
   
   - elf文件头
   
