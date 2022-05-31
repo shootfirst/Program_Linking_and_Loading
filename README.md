@@ -317,7 +317,7 @@
                 SHT_DYNAMIC       用于本节中项目的字符串表在节头表中相应的索引值        0 
                 SHT_HASH          用于本节中哈希表的符号表在节头表中相应的索引值        0 
                 SHT_REL/SHT_RELA  相应符号表在节头表中的索引值，                      本重定位节所应用到目标节在节头表中的索引值
-                SHT_SYMTAB/SHT_DYNSYM  相关字符串表的节头索引                             符号表中最后一个本地符号的索引值加 1 
+                SHT_SYMTAB/SHT_DYNSYM  相关字符串表的节头索引                        符号表中最后一个本地符号的索引值加 1 
                 其它               SHN_UNDEF                                        0
                 
             - sh_addralign     8字节
