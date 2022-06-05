@@ -692,6 +692,10 @@ https://blog.csdn.net/parallelyk/article/details/42747239
   会执行之，用以实现共享对象特有的初始化，例如cpp的全局/静态对象的构造。.finit段则是进程退出时执行，例如cpp全局/静态对象的析构。如果进程的可执行文件也有.init和.finit段，动态链接器不
   负责执行，因为这是等下由可执行文件自己来执行的。当重定位和初始化都完成之后，所有的准备工作都完成了，此时动态链接器如释重负，将进程控制权交给程序入口处开始执行。
   
+  最后给上一个动态链接小项目的网址，通过学习这个项目，你可以更加详细的了解动态链接：
+  
+  https://github.com/shootfirst/xHook/blob/master/docs/overview/android_plt_hook_overview.zh-CN.md
+  
   
     
     
