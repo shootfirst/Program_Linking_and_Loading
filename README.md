@@ -1,5 +1,6 @@
 # Program_Linking_and_Loading（以elf文件为例）
 
+## 前文
 
 可以说是《程序员的自我修养 ——链接、装载与库》的阅读笔记与总结
 
@@ -8,6 +9,29 @@
 #include <elf.h>，该文件在/usr/include/elf.h 
 
 https://blog.csdn.net/parallelyk/article/details/42747239
+
+工具使用：GNU Binutils
+
+GNU Binary Utilities或binutils是一整套的编程语言工具程序，用来处理许多格式的目标文件。这个工具程序通常搭配GCC、make、和GDB这些程序来使用。刚开始时，这个包内只有几支程序，但后来，由
+于功能需求近似，陆续加入了GNU汇编器（GAS）和GNU链接器（GLD）。一般来说，这些程序都很简单，大部分的复杂性都存在于Binary File Descriptor library和libopcodes这些库里头。
+
+binutils包含底下这些指令（不全，参考查维基百科）：
+
+as	汇编器
+ld	链接器
+gprof	性能分析工具程序
+addr2line	从目标文件的虚拟地址获取文件的行号或符号
+ar	可以对静态库做创建、修改和取出的操作。
+gold	另一种链接器
+nlmconv	可以转换成NetWare Loadable Module目标文件格式
+nm	显示目标文件内的符号
+objcopy	复制目标文件，过程中可以修改
+objdump	显示目标文件的相关信息，亦可反汇编
+ranlib	产生静态库的索引
+readelf	显示ELF文件的内容
+size	列出总体和section的大小
+strings	列出任何二进制档内的可显示字符串
+strip	从目标文件中移除符号
 
 
 
