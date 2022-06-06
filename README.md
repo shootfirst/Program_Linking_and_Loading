@@ -14,10 +14,7 @@ https://blog.csdn.net/parallelyk/article/details/42747239
 ## 目标文件（elf文件）简介
   
   
-  - ELF(Executable and Linking Format)，即“可执行可连接格式”，最初由 UNIX系统实验室做为ABI的一部分而制定和发布，最大特点在于它有比较广泛的适用性，通用的二进制接口定义使之可以
-    平滑地移植到多种不同的操作环境上。这样，不需要为每一种操作系统都定义一套不同的接口，因此减少了软件的重复编码与编译，加强了软件的可移植性。ELF 文件格式规范由 TIS(Tool Interfa
-    ceStandards – 工具接口标准)委员会制定，TIS 委员会是一个微型计算机工业的联合组织，它致力于为 32 位操作系统下的开发工具提供标准化的软件接口。这种接口包括目标标志格式、可执行文
-    件格式，以及调试信息的格式。
+  - ELF(Executable and Linking Format)，即“可执行可连接格式”，最初由 UNIX系统实验室做为ABI的一部分而制定和发布。
       
   - 目标文件/ELF 文件主要分为以下四种类型：
     
